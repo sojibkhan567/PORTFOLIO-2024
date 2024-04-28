@@ -1,0 +1,418 @@
+@media only screen and (max-width: 1499px) {}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+	.tj-header-area .header-button {
+		margin-left: auto;
+	}
+}
+
+
+/*
+* ===============================
+*  EXTRA LARGE DEVICE
+* ===============================
+*/
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+	.tj-header-area .header-button {
+		margin-left: 35px;
+	}
+
+	.hero-title {
+		font-size: 60px;
+		line-height: 85px;
+	}
+
+	.hero-section .funfact-area {
+		margin-top: 70px;
+	}
+
+	.skills-widget .skill-item {
+		max-width: 165px;
+	}
+	.skills-widget .skill-inner {
+		padding: 30px 15px 25px;
+	}
+}
+
+/*
+* ===============================
+*  LARGE DEVICE
+* ===============================
+*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.services-section {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.tj-header-area {
+		padding: 30px 0 15px;
+	}
+
+	.tj-header-area .logo-box {
+		margin-right: 15px;
+	}
+
+	.tj-header-area .header-button {
+		margin-left: 20px;
+	}
+
+	.tj-header-area .header-menu ul {
+		gap: 20px;
+	}
+
+	.hero-title {
+		font-size: 50px;
+		line-height: 70px;
+	}
+
+	.hero-section .funfact-area {
+		margin-top: 60px;
+	}
+	/* resume */
+	.section-header .section-title {
+		font-size: 40px;
+	}
+	.resume-section .resume-item {
+		margin-right: 0;
+	}
+	.resume-widget .resume-item .resume-title {
+		font-size: 23px;
+	}
+	
+}
+
+/*
+* ===============================
+*  TABLET DEVICE
+* ===============================
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	/* header */
+	.tj-header-area {
+		padding: 20px 0 15px;
+	}
+
+	.tj-header-area .header-menu {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		min-height: 90vh;
+		background-color: var(--tj-theme-secondary);
+		overflow-y: auto;
+		transform-origin: top;
+		transform: scaleY(0);
+		transition: all 0.4s ease-in-out 0s;
+	}
+
+	.tj-header-area .header-menu.opened {
+		transform: scaleY(1);
+	}
+
+	.tj-header-area .header-menu ul {
+		flex-direction: column;
+		padding: 20px 0;
+	}
+
+	.tj-header-area .header-menu ul li {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.tj-header-area .header-menu ul li a {
+		justify-content: center;
+		width: 100%;
+		text-transform: uppercase;
+		line-height: 1;
+		padding: 15px 0;
+		letter-spacing: 1px;
+		font-size: 25px;
+	}
+
+	.tj-header-area .header-button {
+		margin-left: auto;
+	}
+
+	.tj-header-area .header-menu ul li a::before {
+		display: none;
+	}
+
+	.tj-header-area .header-menu ul li a:hover {
+		text-decoration: underline;
+	}
+
+	.hero-title {
+		font-size: 38px;
+		line-height: 60px;
+	}
+
+	.hero-section .funfact-area {
+		margin-top: 60px;
+	}
+
+	.funfact-item {
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	/*service*/
+	.section-header .section-title {
+		font-size: 35px;
+	}
+	.services-widget .service-item {
+		padding: 0px 15px;
+	}
+	.services-widget .service-item .left-box {
+		gap: 10px;
+	}
+	.services-widget .service-item .left-box .service-title {
+		font-size: 25px;
+	}
+	.services-widget .service-item .right-box {
+		padding: 20px 0;
+		padding-right: 0px;
+		padding-right: 5%;
+	}
+	.services-widget i {
+		right: 20px;
+	}
+	/* Resume section */
+	.section-header .section-title {
+		font-size: 35px;
+	}
+	.resume-section .resume-item {
+		margin-right: 0;
+		padding: 20px 15px;
+	}
+	.resume-widget .resume-item .time {
+		font-size: 15px;
+	}
+	.resume-widget .resume-item .resume-title {
+		font-size: 20px;
+	}
+	/* contact */
+	.contact-info-list .text-box a {
+		font-size: 18px;
+	}
+
+}
+
+/*
+* ===============================
+*  MOBILE DEVICE
+* ===============================
+*/
+@media only screen and (max-width: 767px) {
+	h3 {
+		font-size: 22px;
+	}
+	/* header */
+	.tj-header-area {
+		padding: 20px 0 15px;
+	}
+
+	.tj-header-area .header-menu {
+		position: absolute;
+		left: 0;
+		top: 100%;
+		width: 100%;
+		min-height: 90vh;
+		overflow-y: auto;
+		background-color: var(--tj-theme-secondary);
+		transform-origin: top;
+		transform: scaleY(0);
+		transition: all 0.4s ease-in-out 0s;
+	}
+
+	.tj-header-area .header-menu.opened {
+		transform: scaleY(1);
+	}
+
+	.tj-header-area .header-menu ul {
+		flex-direction: column;
+		padding: 20px 0;
+	}
+
+	.tj-header-area .header-menu ul li {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.tj-header-area .header-menu ul li a {
+		justify-content: center;
+		width: 100%;
+		text-transform: uppercase;
+		line-height: 1;
+		padding: 10px 0;
+		letter-spacing: 1px;
+		font-size: 22px;
+	}
+
+	.tj-header-area .header-button {
+		margin-left: auto;
+	}
+
+	.tj-header-area .header-menu ul li a::before {
+		display: none;
+	}
+
+	.tj-header-area .header-menu ul li a:hover {
+		text-decoration: underline;
+	}
+
+	.tj-header-area .header-menu ul li:not(:last-child) {
+		margin-bottom: 20px;
+	}
+
+	/*hero section */
+	.hero-section {
+		padding: 130px 0 40px;
+	}
+
+	.hero-title {
+		font-size: 35px;
+		margin-bottom: 0;
+		line-height: 50px;
+	}
+
+	.hero-image-box {
+		margin: 30px 0;
+	}
+
+	.hero-image-box img {
+		width: 350px;
+	}
+
+	.hero-section .funfact-area {
+		margin-top: 60px;
+	}
+
+	.funfact-item {
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+	.hero-sub-title {
+		font-size: 12px;
+	}
+
+	/*services section*/
+	.section-header {
+		margin-bottom: 40px;
+	}
+	.services-widget .service-item {
+		padding: 20px 15px;
+		gap: 15px;
+		transition: all 0.5s ease;
+	}
+	.services-widget .service-item.current {
+		background: linear-gradient( 260deg, var(--tj-theme-secondary) 0%, var(--tj-theme-primary) 100% );
+	}
+	.services-widget .service-item .left-box {
+		width: 100%;
+		gap: 10px;
+		padding: 0 25px 0 0;
+	}
+	.services-widget .service-item .left-box .service-title {
+		font-size: 20px;
+	}
+	.services-widget .service-item .right-box {
+		width: 100%;
+		padding: 0;
+	}
+	.services-widget i {
+		right: 20px;
+		top: 20%;
+		font-size: 15px;
+	}
+	/* resume section */
+	.resume-section {
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
+	.section-header {
+		margin-bottom: 40px;
+	}
+	.section-header .section-title {
+		font-size: 30px;
+	}
+	.resume-section .resume-item {
+		margin-right: 0;
+		padding: 20px 15px;
+	}
+	.resume-widget .resume-item .time {
+		font-size: 15px;
+	}
+	.resume-widget .resume-item .resume-title {
+		font-size: 18px;
+		margin-bottom: 0;
+	}
+	.resume-widget .resume-item .institute {
+		font-size: 14px;
+		line-height: 30px;
+	}
+	.resume-section .col-md-6:last-child .section-header {
+		margin-top: 30px;
+	}
+	/* portfolio */
+	.portfolio-box .portfolio-item {
+		width: 100%;
+		padding: 25px 15px 0 15px;
+		margin-bottom: 30px;
+	}
+	/* portfolio */
+	.portfolio-section {
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
+	.portfolio-filter .button-group {
+		padding: 0 8px;
+	}
+	.portfolio-filter .button-group button {
+		font-size: 14px;
+		padding: 10px 6px;
+	}
+	.portfolio-box {
+		padding-top: 40px;
+	}
+	.portfolio-box .portfolio-sizer {
+		width: 100%;
+	}
+	.portfolio-box .portfolio-item {
+		width: 100%;
+		padding: 25px 15px 0 15px;
+		margin-bottom: 30px;
+	}
+	.portfolio-box .content-box {
+		width: calc(100% - 30px);
+		padding: 15px 30px 15px 15px;
+	}
+	.portfolio-box .portfolio-item .content-box .portfolio-title {
+		font-size: 25px;
+		margin: 0;
+	}
+	.portfolio-box .portfolio-item .content-box i {
+		font-size: 15px;
+		right: 15px;
+	}
+	/* testimonials */
+	.testimonials-widget .testimonial-item {
+		max-width: 100%;
+	}
+	/* blog */
+	.blog-item .blog-content .blog-title {
+		font-size: 18px;
+	}
+	/* contact */
+	.contact-info-list {
+		margin-top: 60px;
+	}
+	/* back to top */
+	.progress-wrap {
+		right: 20px;
+		bottom: 20px;
+	}
+}
